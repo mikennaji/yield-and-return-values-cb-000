@@ -5,8 +5,8 @@ def hello(array)
   while i < array.length
     yield(array[i])
     i += 1
-    binding.pry
   end
+  array
 end
 
 
